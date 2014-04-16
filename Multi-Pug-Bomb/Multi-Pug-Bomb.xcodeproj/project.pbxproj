@@ -63,7 +63,7 @@
 		D849978618FECDFF00318091 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D849978C18FECDFF00318091 /* Multi-Pug-BombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-Pug-BombTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D849978D18FECDFF00318091 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D849979518FECDFF00318091 /* Multi-Pug-BombTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multi-Pug-BombTests-Info.plist"; sourceTree = "<group>"; };
+		D849979518FECDFF00318091 /* Multi-Pug-BombTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Multi-Pug-BombTests-Info.plist"; path = "Supporting_Files/Multi-Pug-BombTests-Info.plist"; sourceTree = "<group>"; };
 		D849979718FECDFF00318091 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D84997A318FECE4700318091 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D84997A518FECE5300318091 /* FISPugCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPugCell.h; sourceTree = "<group>"; };
@@ -74,11 +74,11 @@
 		D84997AB18FECE5F00318091 /* pugAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pugAPI.m; sourceTree = "<group>"; };
 		D84997AE18FECEBC00318091 /* ImagesTableViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewControllerSpec.m; sourceTree = "<group>"; };
 		D84997AF18FECEBC00318091 /* pugAPISpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pugAPISpec.m; sourceTree = "<group>"; };
-		D84997B218FECECB00318091 /* testHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testHelper.h; sourceTree = "<group>"; };
-		D84997B318FECECB00318091 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = "Multi-Pug-BombTests/placeholder.png"; sourceTree = SOURCE_ROOT; };
-		D84997B418FECECB00318091 /* testHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testHelper.m; sourceTree = "<group>"; };
-		D84997B518FECECB00318091 /* EXPMatcher+imageMatchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatcher+imageMatchers.h"; sourceTree = "<group>"; };
-		D84997B618FECECB00318091 /* EXPMatcher+imageMatchers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatcher+imageMatchers.m"; sourceTree = "<group>"; };
+		D84997B218FECECB00318091 /* testHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testHelper.h; path = Supporting_Files/testHelper.h; sourceTree = "<group>"; };
+		D84997B318FECECB00318091 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = "Multi-Pug-BombTests/Supporting_Files/placeholder.png"; sourceTree = SOURCE_ROOT; };
+		D84997B418FECECB00318091 /* testHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testHelper.m; path = Supporting_Files/testHelper.m; sourceTree = "<group>"; };
+		D84997B518FECECB00318091 /* EXPMatcher+imageMatchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EXPMatcher+imageMatchers.h"; path = "Supporting_Files/EXPMatcher+imageMatchers.h"; sourceTree = "<group>"; };
+		D84997B618FECECB00318091 /* EXPMatcher+imageMatchers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EXPMatcher+imageMatchers.m"; path = "Supporting_Files/EXPMatcher+imageMatchers.m"; sourceTree = "<group>"; };
 		D84997BB18FECEE200318091 /* pug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pug.jpg; path = ../Test_Files/pug.jpg; sourceTree = "<group>"; };
 		D84997BC18FECEE200318091 /* output.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = output.json; path = ../Test_Files/output.json; sourceTree = "<group>"; };
 		E7FD1E32AB734521A295652C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
