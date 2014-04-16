@@ -7,7 +7,6 @@
 //
 
 #import "pugAPI.h"
-#import <AFNetworking.h>
 
 @implementation pugAPI
 
