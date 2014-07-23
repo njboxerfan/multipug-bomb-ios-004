@@ -24,8 +24,6 @@
 		D84997A718FECE5300318091 /* FISPugCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D84997A618FECE5300318091 /* FISPugCell.m */; };
 		D84997AC18FECE5F00318091 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84997A918FECE5F00318091 /* ImagesTableViewController.m */; };
 		D84997AD18FECE5F00318091 /* pugAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D84997AB18FECE5F00318091 /* pugAPI.m */; };
-		D84997B018FECEBC00318091 /* ImagesTableViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D84997AE18FECEBC00318091 /* ImagesTableViewControllerSpec.m */; };
-		D84997B118FECEBC00318091 /* pugAPISpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D84997AF18FECEBC00318091 /* pugAPISpec.m */; };
 		D84997B718FECECB00318091 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D84997B318FECECB00318091 /* placeholder.png */; };
 		D84997B818FECECB00318091 /* testHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D84997B418FECECB00318091 /* testHelper.m */; };
 		D84997B918FECECB00318091 /* EXPMatcher+imageMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = D84997B618FECECB00318091 /* EXPMatcher+imageMatchers.m */; };
@@ -72,8 +70,6 @@
 		D84997A918FECE5F00318091 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
 		D84997AA18FECE5F00318091 /* pugAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pugAPI.h; sourceTree = "<group>"; };
 		D84997AB18FECE5F00318091 /* pugAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pugAPI.m; sourceTree = "<group>"; };
-		D84997AE18FECEBC00318091 /* ImagesTableViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewControllerSpec.m; sourceTree = "<group>"; };
-		D84997AF18FECEBC00318091 /* pugAPISpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pugAPISpec.m; sourceTree = "<group>"; };
 		D84997B218FECECB00318091 /* testHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testHelper.h; path = Supporting_Files/testHelper.h; sourceTree = "<group>"; };
 		D84997B318FECECB00318091 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = "Multi-Pug-BombTests/Supporting_Files/placeholder.png"; sourceTree = SOURCE_ROOT; };
 		D84997B418FECECB00318091 /* testHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testHelper.m; path = Supporting_Files/testHelper.m; sourceTree = "<group>"; };
@@ -178,8 +174,6 @@
 		D849979318FECDFF00318091 /* Multi-Pug-BombTests */ = {
 			isa = PBXGroup;
 			children = (
-				D84997AE18FECEBC00318091 /* ImagesTableViewControllerSpec.m */,
-				D84997AF18FECEBC00318091 /* pugAPISpec.m */,
 				D849979418FECDFF00318091 /* Supporting Files */,
 			);
 			path = "Multi-Pug-BombTests";
@@ -390,9 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D84997B118FECEBC00318091 /* pugAPISpec.m in Sources */,
 				D84997B818FECECB00318091 /* testHelper.m in Sources */,
-				D84997B018FECEBC00318091 /* ImagesTableViewControllerSpec.m in Sources */,
 				D84997B918FECECB00318091 /* EXPMatcher+imageMatchers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

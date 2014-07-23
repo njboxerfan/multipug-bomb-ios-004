@@ -10,4 +10,5 @@
 
 @interface ImagesTableViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *pugs; //NSArray of UIImages
 @end
