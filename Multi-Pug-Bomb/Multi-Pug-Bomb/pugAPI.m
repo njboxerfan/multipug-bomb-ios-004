@@ -7,7 +7,27 @@
 //
 
 #import "pugAPI.h"
+#import <AFNetworking.h>
 
 @implementation pugAPI
+
++(void)getPugWithCompletion:(void (^)(NSDictionary *pugDictionary))completionBlock
+{
+    NSString *pugURL = @"http://pugme.herokuapp.com/random";
+    
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    
+    [manager GET:pugURL parameters:nil success:^(NSURLSessionDataTask *task, id responseObject)
+     {
+         //NSLog(@"%@", responseObject);
+         
+         completionBlock(responseObject);
+         
+     } failure:^(NSURLSessionDataTask *task, NSError *error)
+     {
+         NSLog(@"Fail: %@",error.localizedDescription);
+     }];
+    
+}
 
 @end

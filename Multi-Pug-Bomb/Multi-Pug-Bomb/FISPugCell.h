@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FISPugCell : UITableViewCell
+
 @property (weak, nonatomic) IBOutlet UIImageView *pugImageView;
 
 @end

@@ -10,4 +10,6 @@
 
 @interface pugAPI : NSObject
 
++(void)getPugWithCompletion:(void (^)(NSDictionary *pugDictionary))completionBlock;
+
 @end
