@@ -9,17 +9,7 @@
 /* Begin PBXBuildFile section */
 		4CBE2799F50148AEA655ADCF /* libPods-Multi-Pug-BombTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE3173675445A1B7D179A2 /* libPods-Multi-Pug-BombTests.a */; };
 		8F0D3D5BCD59437282B46284 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8A48EC92C542B9913145FA /* libPods.a */; };
-		A0D17D2F1ABB2D1C00D6191A /* FISPugOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D17D2E1ABB2D1C00D6191A /* FISPugOperation.m */; };
 		A0D17D391ABB390600D6191A /* pug1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D301ABB390600D6191A /* pug1.jpg */; };
-		A0D17D3A1ABB390600D6191A /* pug2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D311ABB390600D6191A /* pug2.jpg */; };
-		A0D17D3B1ABB390600D6191A /* pug3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D321ABB390600D6191A /* pug3.jpg */; };
-		A0D17D3C1ABB390600D6191A /* pug4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D331ABB390600D6191A /* pug4.jpg */; };
-		A0D17D3D1ABB390600D6191A /* pug6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D341ABB390600D6191A /* pug6.jpg */; };
-		A0D17D3E1ABB390600D6191A /* pug7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D351ABB390600D6191A /* pug7.jpg */; };
-		A0D17D3F1ABB390600D6191A /* pug8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D361ABB390600D6191A /* pug8.jpg */; };
-		A0D17D401ABB390600D6191A /* pug9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D371ABB390600D6191A /* pug9.jpg */; };
-		A0D17D411ABB390600D6191A /* pug10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D381ABB390600D6191A /* pug10.jpg */; };
-		A0D17D431ABB3B8200D6191A /* pug5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0D17D421ABB3B8200D6191A /* pug5.jpg */; };
 		D849976F18FECDFF00318091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D849976E18FECDFF00318091 /* Foundation.framework */; };
 		D849977118FECDFF00318091 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D849977018FECDFF00318091 /* CoreGraphics.framework */; };
 		D849977318FECDFF00318091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D849977218FECDFF00318091 /* UIKit.framework */; };
@@ -59,18 +49,7 @@
 		090FF9D53E8E4F7185DA089F /* Pods-Multi-Pug-BombTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multi-Pug-BombTests.xcconfig"; path = "Pods/Pods-Multi-Pug-BombTests.xcconfig"; sourceTree = "<group>"; };
 		4D8A48EC92C542B9913145FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CE3173675445A1B7D179A2 /* libPods-Multi-Pug-BombTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Multi-Pug-BombTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0D17D2D1ABB2D1C00D6191A /* FISPugOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPugOperation.h; sourceTree = "<group>"; };
-		A0D17D2E1ABB2D1C00D6191A /* FISPugOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPugOperation.m; sourceTree = "<group>"; };
 		A0D17D301ABB390600D6191A /* pug1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug1.jpg; sourceTree = "<group>"; };
-		A0D17D311ABB390600D6191A /* pug2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug2.jpg; sourceTree = "<group>"; };
-		A0D17D321ABB390600D6191A /* pug3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug3.jpg; sourceTree = "<group>"; };
-		A0D17D331ABB390600D6191A /* pug4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug4.jpg; sourceTree = "<group>"; };
-		A0D17D341ABB390600D6191A /* pug6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug6.jpg; sourceTree = "<group>"; };
-		A0D17D351ABB390600D6191A /* pug7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug7.jpg; sourceTree = "<group>"; };
-		A0D17D361ABB390600D6191A /* pug8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug8.jpg; sourceTree = "<group>"; };
-		A0D17D371ABB390600D6191A /* pug9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug9.jpg; sourceTree = "<group>"; };
-		A0D17D381ABB390600D6191A /* pug10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug10.jpg; sourceTree = "<group>"; };
-		A0D17D421ABB3B8200D6191A /* pug5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug5.jpg; sourceTree = "<group>"; };
 		D849976B18FECDFF00318091 /* Multi-Pug-Bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-Pug-Bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D849976E18FECDFF00318091 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D849977018FECDFF00318091 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -166,28 +145,17 @@
 		D849977418FECDFF00318091 /* Multi-Pug-Bomb */ = {
 			isa = PBXGroup;
 			children = (
-				A0D17D301ABB390600D6191A /* pug1.jpg */,
-				A0D17D311ABB390600D6191A /* pug2.jpg */,
-				A0D17D321ABB390600D6191A /* pug3.jpg */,
-				A0D17D331ABB390600D6191A /* pug4.jpg */,
-				A0D17D421ABB3B8200D6191A /* pug5.jpg */,
-				A0D17D341ABB390600D6191A /* pug6.jpg */,
-				A0D17D351ABB390600D6191A /* pug7.jpg */,
-				A0D17D361ABB390600D6191A /* pug8.jpg */,
-				A0D17D371ABB390600D6191A /* pug9.jpg */,
-				A0D17D381ABB390600D6191A /* pug10.jpg */,
 				D849977D18FECDFF00318091 /* FISAppDelegate.h */,
 				D849977E18FECDFF00318091 /* FISAppDelegate.m */,
 				D84997AA18FECE5F00318091 /* pugAPI.h */,
 				D84997AB18FECE5F00318091 /* pugAPI.m */,
 				D84997A518FECE5300318091 /* FISPugCell.h */,
 				D84997A618FECE5300318091 /* FISPugCell.m */,
-				A0D17D2D1ABB2D1C00D6191A /* FISPugOperation.h */,
-				A0D17D2E1ABB2D1C00D6191A /* FISPugOperation.m */,
 				D84997A818FECE5F00318091 /* ImagesTableViewController.h */,
 				D84997A918FECE5F00318091 /* ImagesTableViewController.m */,
 				D84997A318FECE4700318091 /* Main.storyboard */,
 				D84997B318FECECB00318091 /* placeholder.png */,
+				A0D17D301ABB390600D6191A /* pug1.jpg */,
 				D849978618FECDFF00318091 /* Images.xcassets */,
 				D849977518FECDFF00318091 /* Supporting Files */,
 			);
@@ -318,21 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84997A418FECE4700318091 /* Main.storyboard in Resources */,
-				A0D17D3C1ABB390600D6191A /* pug4.jpg in Resources */,
 				D84997BE18FECEE200318091 /* output.json in Resources */,
 				D84997C118FECF8100318091 /* placeholder.png in Resources */,
 				D849978718FECDFF00318091 /* Images.xcassets in Resources */,
-				A0D17D3B1ABB390600D6191A /* pug3.jpg in Resources */,
 				A0D17D391ABB390600D6191A /* pug1.jpg in Resources */,
-				A0D17D411ABB390600D6191A /* pug10.jpg in Resources */,
-				A0D17D431ABB3B8200D6191A /* pug5.jpg in Resources */,
-				A0D17D3A1ABB390600D6191A /* pug2.jpg in Resources */,
-				A0D17D401ABB390600D6191A /* pug9.jpg in Resources */,
 				D84997BD18FECEE200318091 /* pug.jpg in Resources */,
 				D849977918FECDFF00318091 /* InfoPlist.strings in Resources */,
-				A0D17D3E1ABB390600D6191A /* pug7.jpg in Resources */,
-				A0D17D3D1ABB390600D6191A /* pug6.jpg in Resources */,
-				A0D17D3F1ABB390600D6191A /* pug8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +379,6 @@
 				D84997A718FECE5300318091 /* FISPugCell.m in Sources */,
 				D849977B18FECDFF00318091 /* main.m in Sources */,
 				D84997AC18FECE5F00318091 /* ImagesTableViewController.m in Sources */,
-				A0D17D2F1ABB2D1C00D6191A /* FISPugOperation.m in Sources */,
 				D849977F18FECDFF00318091 /* FISAppDelegate.m in Sources */,
 				D84997AD18FECE5F00318091 /* pugAPI.m in Sources */,
 			);

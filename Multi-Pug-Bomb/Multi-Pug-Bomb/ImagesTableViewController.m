@@ -8,9 +8,8 @@
 
 #import "ImagesTableViewController.h"
 #import "FISPugCell.h"
-#import "FISPugOperation.h"
-#import <AFNetworking/AFNetworking.h> 
 #import "pugAPI.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface ImagesTableViewController ()
 
@@ -24,37 +23,28 @@
     
     self.pugs = [[NSMutableArray alloc] init];
     
-    for (NSUInteger i = 1 ; i < 11 ; i++ )
-    {
-        NSString *imageName = [NSString stringWithFormat:@"pug%ld.jpg",i];
-        
-        UIImage *pugImage = [UIImage imageNamed:imageName];
-
-        [self.pugs addObject:pugImage];
-    }
-    
     NSOperationQueue *pugOperationQueue = [[NSOperationQueue alloc] init];
-    pugOperationQueue.maxConcurrentOperationCount = 10;
-    
+    pugOperationQueue.maxConcurrentOperationCount = 1;
+
     for ( NSUInteger i = 0 ; i < 20 ; i++ )
     {
-        FISPugOperation *pugOperation = [[FISPugOperation alloc] init];
-        
-        pugOperation.pugBlock = ^void(UIImage *pugImage) {
-            
-            if ( i < 10 )
-            {
-                [self.pugs replaceObjectAtIndex:i withObject:pugImage];
-            }
-            else
-            {
-                [self.pugs addObject:pugImage];
-            }
-            
-            [self.tableView reloadData];
-        };
+        [self.pugs addObject:[UIImage imageNamed:@"pug1.jpg"]];
 
-        [pugOperationQueue addOperation:pugOperation];
+        AFHTTPRequestOperation *pugRequestOperation = [pugAPI getPugWithCompletion:^(NSDictionary *pugDictionary) {
+    
+            NSURL *pugImageURL = [NSURL URLWithString:pugDictionary[@"pug"]];
+    
+            UIImage *pugImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:pugImageURL]];
+    
+            [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                                
+                [self.pugs replaceObjectAtIndex:i withObject:pugImage];
+                
+                [self.tableView reloadData];
+            }];
+        }];
+    
+        [pugOperationQueue addOperation:pugRequestOperation];
     }
 }
 

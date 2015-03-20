@@ -7,27 +7,29 @@
 //
 
 #import "pugAPI.h"
-#import <AFNetworking.h>
 
 @implementation pugAPI
 
-+(void)getPugWithCompletion:(void (^)(NSDictionary *pugDictionary))completionBlock
++(AFHTTPRequestOperation *)getPugWithCompletion:(void (^)(NSDictionary *pugDictionary))completionBlock
 {
-    NSString *pugURL = @"http://pugme.herokuapp.com/random";
+    NSURL *pugURL = [NSURL URLWithString:@"http://pugme.herokuapp.com/random"];
     
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    NSURLRequest *pugRequest = [[NSURLRequest alloc] initWithURL:pugURL];
     
-    [manager GET:pugURL parameters:nil success:^(NSURLSessionDataTask *task, id responseObject)
-     {
-         //NSLog(@"%@", responseObject);
-         
-         completionBlock(responseObject);
-         
-     } failure:^(NSURLSessionDataTask *task, NSError *error)
-     {
-         NSLog(@"Fail: %@",error.localizedDescription);
-     }];
+    AFHTTPRequestOperation *pugOperation = [[AFHTTPRequestOperation alloc] initWithRequest:pugRequest];
     
+    pugOperation.responseSerializer = [[AFJSONResponseSerializer alloc] init];
+    
+    [pugOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        completionBlock(responseObject);
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+        NSLog(@"Fail: %@",error.localizedDescription);
+    }];
+    
+    return pugOperation;
 }
 
 @end

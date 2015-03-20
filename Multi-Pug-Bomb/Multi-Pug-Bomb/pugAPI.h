@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking.h>
 
 @interface pugAPI : NSObject
 
-+(void)getPugWithCompletion:(void (^)(NSDictionary *pugDictionary))completionBlock;
++(AFHTTPRequestOperation *)getPugWithCompletion:(void (^)(NSDictionary *pugDictionary))completionBlock;
 
 @end
